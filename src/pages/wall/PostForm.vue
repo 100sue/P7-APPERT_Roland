@@ -1,17 +1,12 @@
 <script>
-import Card from "./Card.vue"
-export default {
-    name: "wall",
-    components: {
-        Card
-    }
+export default{
+    name:"PostForm"
 }
 </script>
 
+
 <template>
-<h1>Wall</h1>
-<div class="container-sm">
-<div class="form-floating">
+<div class="form-floating mt-4">
   <textarea 
   contenteditable
   class="form-control" 
@@ -26,11 +21,6 @@ export default {
 <button type="button" class="btn btn-primary mt-1 ms-auto">Post</button>
 </div>
 <hr class="dropdown-divider mt-4">
-<Card></Card>
-<Card></Card>
-<Card></Card>
-</div>
-
 </template>
 
 <style module>
@@ -38,6 +28,6 @@ input {
     display: none;
 }
 body {
-    background-color: #f5f5f51a !important;
+    background-color: #5f5f5f1a !important;
 }
 </style>
