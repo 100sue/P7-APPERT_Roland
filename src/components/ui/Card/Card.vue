@@ -37,7 +37,7 @@ export default {
 </div>
 </template>
 
-<style>
+<style scoped>
 @media (min-width: 768px) { 
 .card {
     width: 70%;
